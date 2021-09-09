@@ -1,6 +1,7 @@
-from config.database import connect
+from config.db import connection
 
-APP_SECRET_KEY = "qwertyuvgb897654%&&$$$oprtgfs1245lkhg"
+APP_SECRET_KEY = "asdgasdgasd%&&$$$asdfasdf"
 
 
-mainDB = connect.rest_bank
+conn = connection.get_database('Cluster0')
+mainDB = conn.test_rest
