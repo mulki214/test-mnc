@@ -8,4 +8,4 @@
 * Open terminal
 * Run `python3 -m venv venv`
 * Run `. ./venv/bin/activate`
-* Run ``
+* Run `python3 app.py`
